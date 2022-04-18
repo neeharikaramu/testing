@@ -1271,14 +1271,14 @@ h2, .h2{
   
   .content-center-text-absolute{ 
     position: absolute; 
-    text-align: center;
+    text-align: left;
     width: 100%;
     height: 0%;
     margin: auto;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+    /* top: 10px;
+    left: 0; */
+    bottom:110px;
+    /* right: 0; */
     z-index: 51;
   }
 
@@ -1293,6 +1293,7 @@ h2, .h2{
 
   .service-block2{
     position: relative;
+    
 }
 
 .img-hover-zoom--blur img {
@@ -1313,3 +1314,4 @@ h2, .h2{
       height: 272px;
       width: 272px;
   } */
+
