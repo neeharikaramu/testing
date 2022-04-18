@@ -22,6 +22,30 @@ Created by : mutationthemes
 
 /*Preloader*/
 
+* {
+    box-sizing: border-box;
+    
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+
+
+.clear {
+   clear: both;
+}
+
+body *{
+    overflow: hidden;
+}
+
  .loader {
      background: #ffffff;
      bottom: 0;
@@ -378,7 +402,7 @@ Created by : mutationthemes
 
 .footer{
   position: relative;
-  margin-top: 3.1rem; 
+  /* margin-top: 3.1rem;  */
 }
 .footer-svg {
     position: absolute;
@@ -1164,14 +1188,12 @@ h2, .h2{
 
 } */
 
-/* .service-block2{
-    position: relative;
-} */
+
 
 
 
 .service-block1{
-    background: linear-gradient(rgba(33, 33, 33, 0.4), rgba(33, 33, 33, 0.4)),url('Peanut Butter and Jelly.jpg');
+    background: linear-gradient(rgba(33, 33, 33, 0.4), rgba(33, 33, 33, 0.4)),url('Peanut-Butter-and-Jelly.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100%;
@@ -1243,3 +1265,51 @@ h2, .h2{
     transform: scale(1.2);
   } */
 
+  .contianer-relative{ 
+    position: relative;
+   }
+  
+  .content-center-text-absolute{ 
+    position: absolute; 
+    text-align: center;
+    width: 100%;
+    height: 0%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 51;
+  }
+
+  .hello-row{
+      padding-bottom: 100px;
+  }
+
+  .contianer-relative img{
+      width:500px;
+      height: 500px;
+  }
+
+  .service-block2{
+    position: relative;
+}
+
+.img-hover-zoom--blur img {
+    transition: transform 1s, filter 2s ease-in-out;
+    filter: blur(2px);
+    transform: scale(1.2);
+  }
+  
+  /* The Transformation */
+  .img-hover-zoom--blur:hover img {
+    filter: blur(0);
+    transform: scale(1);
+  }
+/* 
+  .card-img{
+      max-height: 39vh;
+      max-width: 39vh;
+      height: 272px;
+      width: 272px;
+  } */
